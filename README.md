@@ -24,26 +24,26 @@ Outputs include:
 - `*_Stack.tif` — merged and stacked image
 - `*_Montage.tif` — side-by-side montage for easy viewing
 
-├── 2-color/
-│ ├── 2color_macro.ijm
-│ └── example/
-│ └── 2channel.tif
-│ └── 2channel_stack.tif
-│ └── 2channel_Montage.tif
-
-├── 3-color/
-│ ├── 3color_macro.ijm
-│ └── example/
-│ └── 3channel.tif
-│ └── 3channel_stack.tif
-│ └── 3channel_Montage.tif
-
-├── 4-color/
-│ ├── 4color_macro.ijm
-│ └── example/
-│ └── 4channel.tif
-│ └── 4channel_stack.tif
-│ └── 4channel_Montage.tif
+├── ImageJ-montage-macro
+│   └── imagej-montage-macro
+│       ├── 2-color
+│       │   ├── Example
+│       │   │   ├── 2channel.tif
+│       │   │   ├── 2channel_Montage.tif
+│       │   │   └── 2channel_Stack.tif
+│       │   └── macro_2channel.ijm
+│       ├── 3-color
+│       │   ├── Example
+│       │   │   ├── 3channel.tif
+│       │   │   ├── 3channel_Montage.tif
+│       │   │   └── 3channel_Stack.tif
+│       │   └── macro_3channel.ijm
+│       ├── 4-color
+│       │   ├── Example
+│       │   │   └── 4channel.tif
+│       │   └── macro_4channel.ijm
+│       ├── LICENSE
+│       └── README.md
 
 ## Requirements
 
