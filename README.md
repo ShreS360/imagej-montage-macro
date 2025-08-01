@@ -71,6 +71,9 @@ You can organize your files in nested folders. The macros will search recursivel
 
 Channel mapping and color assignment can be changed easily within the macros if your imaging setup differs. Look for the `Merge Channels...` step in the code to customize.
 
+## New Feature
+- Background subtraction now uses clean ring masks.
+
 ## Author
 Shreyas Sridhar – Researcher & aspiring bioinformatician
 
